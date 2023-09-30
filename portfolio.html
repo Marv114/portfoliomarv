@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/2983a59dcb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.png" class="logo2">
+                <ul>
+                    <li> <a href="#header">HOME</a></li>
+                    <li> <a href="#about">ABOUT</a></li>
+                    <li> <a href="#services">SERVICES</a></li>
+                    <li> <a href="#portfolio">PORTFOLIO</a></li>
+                    <li> <a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu"></i>
+                </ul id="sidemenu">
+                <i class="fa-solid fa-bars" onclick="openmenu"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi Im <span>Marvin</span> <br>Munene from Kenya</h1>
+            </div>
+        </div>
+    </div>
+    <!--- ----------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/sm.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>I have capability skills in Micsoft Packages. Im also a certified cybersecurity student, with a certificte issued by Simplilearn.I reside at the central part of Kenya. Taking my undergraduates studies at the University of Kabianga. Taking a four year course, in Information Science and Knowledge Management, specialization in Information Technology.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS</p>
+                        <p class="tab-links active-link" onclick="opentab('experience')">EXPERIENCE</p>
+                        <p class="tab-links acive-link" onclick="opentab('education')">EDUCATION</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Development</span><br>Designing Web/App interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Designing Web/App interfaces</li>
+                            <li><span>2023</span><br>Attachment at Finlays</li>
+                            <li><span>2020</span><br>Packages at NSPSI</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>Designing Web/App interfaces course at University of Kabianga</li>
+                            <li><span>2022</span><br>Cybersecurity at Simplilearn Website</li>
+                            <li><span>2020</span><br>IT Undergraduate at Uiversssity of Kabianga</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------services----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Devepolment</h2>
+                    <p>Offer Designing Services using web scripting languages which incude HTML, CSS and JAVASCRIPT</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Devepolment</h2>
+                    <p>Offer Web Designing Services of User interface using web scripting languages which incude HTML, CSS and JAVASCRIPT</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Devepolment</h2>
+                    <p>Offer Web Designing and Development Services using web scripting languages which incude HTML, CSS and JAVASCRIPT</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---- --------------portfolio--------------- --->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/front.jpg">
+                    <div class="layer">
+                        <h3>Social Media Application</h3>
+                        <p>The application connects you to remotely talk to people arounr the world</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/side.jpg">
+                    <div class="layer">
+                        <h3>LLearning Application</h3>
+                        <p>The application connects you to remotely talk to people arounr the world</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/half.jpg">
+                    <div class="layer">
+                        <h3>ONline Shopping Application</h3>
+                        <p>The application connects you to remotely talk to people arounr the world</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--- ---------------contact--------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>marvnesh254@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0114357760</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-quora"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/images_bd791441603b8beaf14cd9e119133303-Simple-resume-template.pdf" download class="btn btn2">Donload CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form name="submit-to-google-sheet">
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Marvin. Made using:<i class="fa-solid fa-handshake"></i> VS code</p>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        
+    </script>
+    <script>
+        var sidemenu= document.getElementById("sidemenu")
+        function openmenu()
+        {
+            sidemenu.style.right="0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwpuxWAWfvvq1VXenPf02BfPpSjjqO56c4BFBkX1ODZP-weoAxDw7MowcyCuph1bM454w/exec>'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=documet.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => 
+            {
+                msg.innerHTML="Message sent successfully!"
+                setTimeout(function()
+                {
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
